@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Acesso ao Sistema FabricaWEB Fundaentos</title>
+</head>
+<body>
+	
+	<form action="autenticarController.do" method="post" >
+		<fieldset>
+			<table>
+				<tr>
+				
+					<td>
+						<label>Login</label>
+<!-- 						//id é apara uso e tratamento no navegador -->
+<!-- 						//name é para usar no servlet -->
+						<input type="text" name="login"/>
+					</td>
+					<td>
+						<label>Senha</label>
+						<input  type="password" name="senha"/>
+					</td>	
+				</tr>
+<!-- 				colspan Espande a tela para o numero de seu valor -->
+				<tr>
+					<td colspan="2">
+					<input type="submit" value="Acessar"/>
+					</td>
+				</tr>
+			</table>
+		</fieldset>
+	</form>
+</body>
+</html>
