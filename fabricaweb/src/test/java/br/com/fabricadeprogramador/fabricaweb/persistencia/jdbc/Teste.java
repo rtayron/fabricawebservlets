@@ -6,8 +6,8 @@ public class Teste {
 		int m,n=44;
 		m=--n;
 		m=n--;
-		System.out.println(m);
-		System.out.println(n);
+		System.out.println("Valor de M" + m);
+		System.out.println("Valor de n" + n);
 
 	}
 
