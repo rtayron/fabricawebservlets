@@ -7,6 +7,7 @@ public class Usuario {
 	private String login;
 	private String email;
 	private String senha;
+	private String telefone;
 	
 	public Usuario(){}
 	
@@ -53,5 +54,19 @@ public class Usuario {
 	 */
 	public void setEmail(String email) {
 		this.email = email;
+	}
+
+	/**
+	 * @return the telefone
+	 */
+	public String getTelefone() {
+		return telefone;
+	}
+
+	/**
+	 * @param telefone the telefone to set
+	 */
+	public void setTelefone(String telefone) {
+		this.telefone = telefone;
 	}
 }
