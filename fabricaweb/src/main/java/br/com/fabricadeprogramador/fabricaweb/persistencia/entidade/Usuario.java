@@ -5,6 +5,7 @@ public class Usuario {
 	private Long id;
 	private String nome;
 	private String login;
+	private String email;
 	private String senha;
 	
 	public Usuario(){}
@@ -38,5 +39,19 @@ public class Usuario {
 	}
 	public void setSenha(String senha) {
 		this.senha = senha;
+	}
+
+	/**
+	 * @return the email
+	 */
+	public String getEmail() {
+		return email;
+	}
+
+	/**
+	 * @param email the email to set
+	 */
+	public void setEmail(String email) {
+		this.email = email;
 	}
 }
